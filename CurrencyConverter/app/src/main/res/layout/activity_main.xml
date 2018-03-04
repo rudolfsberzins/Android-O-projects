@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rbe.currencyconverter.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/numTextField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="@string/euro_to_danish_krone"
+            android:inputType="number"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/convertButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/numTextField"
+            android:layout_centerHorizontal="true"
+            android:onClick="convertCurrency"
+            android:text="@string/convert" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:contentDescription="@string/picture_of_money"
+            android:scaleType="center"
+            app:srcCompat="@drawable/currency"
+            tools:layout_editor_absoluteY="174dp" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
