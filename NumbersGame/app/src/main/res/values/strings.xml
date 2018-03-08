@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Numbers Game</string>
+    <string name="title">Numbers Game</string>
+    <string name="description">This App will tell You if a given number is Triangular, Square or Both</string>
+    <string name="tip">Please enter a number</string>
+    <string name="hint_window">Enter a number</string>
+    <string name="button_text">Check</string>
 </resources>
