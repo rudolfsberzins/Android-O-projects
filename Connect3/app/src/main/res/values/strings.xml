@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Connect 3</string>
+    <string name="red_piece">red_piece</string>
+    <string name="yellow_won">Yellow Won!</string>
+    <string name="red_won">Red Won!</string>
+    <string name="draw">Its a Draw</string>
+</resources>
